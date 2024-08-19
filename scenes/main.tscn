@@ -12,6 +12,8 @@ script = ExtResource("1_ifb8c")
 pipe_scene = ExtResource("2_k5prj")
 
 [node name="Background" type="Sprite2D" parent="."]
+position = Vector2(1, -2)
+scale = Vector2(0.991898, 1)
 texture = ExtResource("1_ic4wa")
 offset = Vector2(432, 384)
 
@@ -28,9 +30,10 @@ z_index = 1
 anchors_preset = 5
 anchor_left = 0.5
 anchor_right = 0.5
-offset_left = -34.5
-offset_right = 34.5
-offset_bottom = 23.0
+offset_left = -120.0
+offset_top = 12.0
+offset_right = 51.0
+offset_bottom = 67.0
 grow_horizontal = 2
 theme_override_font_sizes/font_size = 40
 text = "SCORE: 0"
