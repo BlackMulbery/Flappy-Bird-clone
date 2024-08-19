@@ -36,4 +36,3 @@ func _physics_process(delta):
 		
 func flap():
 	velocity.y = FLAP_SPEED
-
