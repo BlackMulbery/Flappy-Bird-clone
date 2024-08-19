@@ -8,3 +8,4 @@ func _on_body_entered(body):
 
 func _on_score_area_body_entered(body):
 	scored.emit()
+
